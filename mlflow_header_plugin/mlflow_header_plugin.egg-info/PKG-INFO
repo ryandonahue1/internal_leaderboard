@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: mlflow-header-plugin
+Version: 0.0.1
+Summary: Header plugin for MLflow
+Requires-Dist: mlflow
+Dynamic: requires-dist
+Dynamic: summary
