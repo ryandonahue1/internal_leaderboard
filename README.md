@@ -1,101 +1,203 @@
 # 🏆 Internal LLM Leaderboard
 
-A Streamlit web application for tracking and visualizing AI model performance across different task categories within your company's AI assistant experiments.
+A Streamlit-based web application for tracking and comparing AI model performance across different task categories using MLflow experiment data.
+
+## 📋 Overview
+
+This leaderboard tracks AI model performance across three key legal document analysis tasks:
+- **Extract Dramatis** 🎭 - Extracting key parties from legal documents
+- **Extract Claims** 📋 - Identifying claims from legal documents  
+- **Summarize Relief** 📝 - Summarizing requested relief from legal documents
+
+The application connects to your MLflow tracking server to automatically pull experiment results and display comprehensive performance analytics including win rates, ELO ratings, and confidence intervals.
+
+## ✨ Features
+
+- **Real-time MLflow Integration** - Automatically syncs with your MLflow experiments
+- **Multiple Task Categories** - Compare models across different evaluation tasks
+- **Advanced Statistics** - Wilson confidence intervals and ELO rating system
+- **Modern UI** - Beautiful Streamlit interface with responsive design
+- **Performance Metrics** - Win rates, confidence intervals, match history
+- **Custom MLflow Plugin** - Includes authentication header plugin for secure MLflow access
 
 ## 🚀 Quick Start
 
-1. **Install dependencies:**
+### Prerequisites
+
+- Python 3.8+
+- Access to MLflow tracking server
+- MLflow experiments with evaluation data
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd internal_leaderboard
+   ```
+
+2. **Create virtual environment**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+3. **Install dependencies**
    ```bash
    pip install -r requirements.txt
    ```
 
-2. **Run the application:**
+4. **Install MLflow header plugin**
    ```bash
-   streamlit run app.py
+   cd mlflow_header_plugin
+   pip install -e .
+   cd ..
    ```
 
-3. **Open your browser** to `http://localhost:8501`
+### Configuration
 
-## 📊 Features
+Update the MLflow configuration in `data_utils.py`:
+
+```python
+# MLflow Configuration
+MLFLOW_TRACKING_URI = "https://your-mlflow-server.com"
+MLFLOW_USER = "your.email@company.com"
+```
+
+### Running the Application
+
+```bash
+streamlit run app.py
+```
+
+The application will be available at `http://localhost:8501`
+
+## 📊 Data Format
+
+The application expects MLflow experiments with the following structure:
+
+### Required Parameters
+- `task_plan_name`: One of `extract_dramatis`, `extract_claims`, `summarize_relief`
+- `model_a`: Name of the first model being compared
+- `model_b`: Name of the second model being compared
+
+### Required Metrics
+- `model_a_wins`: Number of wins for model A
+- `model_b_wins`: Number of wins for model B
+
+### Example MLflow Run
+```python
+with mlflow.start_run():
+    mlflow.log_param("task_plan_name", "extract_dramatis")
+    mlflow.log_param("model_a", "gpt-4.1-mini-2025-04-14")
+    mlflow.log_param("model_b", "us.anthropic.claude-3-7-sonnet-20250219-v1:0")
+    mlflow.log_metric("model_a_wins", 15)
+    mlflow.log_metric("model_b_wins", 10)
+```
+
+## 🔧 Components
+
+### Core Files
+
+- **`app.py`** - Main Streamlit application with UI components
+- **`data_utils.py`** - Data processing, MLflow integration, and statistical calculations
+- **`requirements.txt`** - Python dependencies
+
+### MLflow Plugin
+
+- **`mlflow_header_plugin/`** - Custom MLflow plugin for request header authentication
+  - Provides secure authentication for MLflow API requests
+  - Automatically installed during setup
+
+## 📈 Statistical Methods
+
+### Win Rate Calculation
+- Simple win percentage: `wins / total_matches * 100`
+- Uses Wilson Score Confidence Intervals (more accurate than normal approximation)
+- Displays asymmetric confidence intervals when appropriate
+
+### ELO Rating System
+- Initial rating: 1200
+- K-factor: 32
+- Updates chronologically based on match timestamps
+- Provides relative skill assessment independent of win rate
+
+## 🎨 UI Features
 
 ### Overview Page
-- **Summary Statistics**: Total matches, active models, categories, and date range
-- **Task Category Cards**: Top 3 performing models per category (Text, WebDev, Vision)
-- **Overall Leaderboard**: Combined rankings across all task categories
-- **Interactive Navigation**: Click "View All" buttons to dive into specific categories
+- Summary statistics across all categories
+- Mini leaderboards for each task category
+- Overall performance rankings
 
-### Task Detail Pages
-- **Category-specific Rankings**: Detailed leaderboard for Text, WebDev, or Vision tasks
-- **Recent Match History**: Last 10 matches in each category
-- **Performance Metrics**: Win rates, ELO ratings, total matches
+### Category Detail Pages
+- Detailed rankings for specific task categories
+- Recent match history
+- Category-specific performance metrics
 
-### Metrics Calculated
-- **Win Rate**: Percentage of matches won by each model
-- **ELO Rating**: Chess-style rating system (starts at 1200, ±32 points per match)
-- **Match Statistics**: Wins and total matches per model
+### Modern Design
+- Gradient card layouts
+- Responsive design
+- Interactive navigation
+- Real-time data refresh
 
-## 📁 File Structure
+## 🔄 Data Refresh
 
+The application automatically caches data for 5 minutes for performance. To manually refresh:
+
+1. Use the "Refresh Data" button in the sidebar
+2. Or restart the Streamlit application
+
+## 🛠️ Development
+
+### Project Structure
 ```
 internal_leaderboard/
-├── app.py              # Main Streamlit application
-├── data_utils.py       # Data processing and metric calculations
-├── mock_data.csv       # Sample match data
-├── requirements.txt    # Python dependencies
-└── README.md          # This file
+├── app.py                      # Main Streamlit app
+├── data_utils.py              # Data processing & MLflow integration
+├── requirements.txt           # Dependencies
+├── mlflow_header_plugin/      # Custom MLflow plugin
+│   ├── mlflow_header_plugin/
+│   │   ├── __init__.py
+│   │   └── request_header_provider.py
+│   └── setup.py
+└── README.md                  # This file
 ```
-
-## 🔧 Data Format
-
-The application expects CSV data with the following columns:
-- `timestamp`: Match timestamp (YYYY-MM-DD HH:MM:SS)
-- `task_category`: Category (Text, WebDev, Vision, etc.)
-- `model_a`: First model in comparison
-- `model_b`: Second model in comparison
-- `winner`: Winning model name (must match model_a or model_b)
-
-Example:
-```csv
-timestamp,task_category,model_a,model_b,winner
-2025-07-20 10:00:00,Text,Gemini-2.5-Pro,Claude-Opus-4,Gemini-2.5-Pro
-```
-
-## 🔗 MLflow Integration
-
-This application now supports live MLflow data! Toggle between mock data and real experiment results.
-
-### **Quick Setup:**
-1. **Install MLflow**: `pip install mlflow>=2.0.0`
-2. **Test connection**: `python test_mlflow.py`
-3. **Run app**: `streamlit run app.py --server.port 8502`
-4. **Toggle data source** in the sidebar
-
-### **Requirements:**
-- MLflow experiment ID 17 with comparison runs
-- Parameters: `task_plan_name`, `model_a`, `model_b`, `evaluation_timestamp`
-- Metrics: `model_a_wins`, `model_b_wins`, `total_evaluations`
-- Supported tasks: `extract_dramatis`, `extract_claims`
-
-### **Configuration:**
-Edit `mlflow_connector.py` to:
-- Set your MLflow tracking URI
-- Add authentication credentials  
-- Map additional model names
-- Add new task categories
-
-## 🛠️ Customization
 
 ### Adding New Task Categories
-Simply include new `task_category` values in your data - the app will automatically detect and create pages for them.
 
-### Modifying ELO Parameters
-Edit the `calculate_elo_ratings()` function in `data_utils.py`:
-- `k_factor`: Rating change magnitude (default: 32)
-- `initial_rating`: Starting rating (default: 1200)
+1. Update `TASK_CATEGORY_MAPPING` in `data_utils.py`
+2. Add category-specific styling in `app.py` (optional)
+3. Ensure MLflow experiments use the new task category name
 
-### Styling
-Customize the CSS in `app.py` to match your company's branding.
+### Customizing Model Name Display
+
+Update the `clean_model_name()` function in `data_utils.py` to add new model name mappings.
+
+## 🔐 Security
+
+- MLflow authentication handled via custom header plugin
+- No sensitive data stored in code
+- Environment-based configuration recommended for production
 
 ## 📝 License
 
-Internal use only - Company confidential 
+[Your License Here]
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Add tests if applicable
+5. Submit a pull request
+
+## 📞 Support
+
+For issues or questions:
+- Create an issue in the repository
+- Contact the development team
+- Check MLflow connection and experiment data format
+
+---
+
+**Built with Streamlit** • **Powered by MLflow** 
