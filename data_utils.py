@@ -29,13 +29,48 @@ def save_data_to_json(df, filename='leaderboard_data.json'):
 def load_data_from_json(filename='leaderboard_data.json'):
     """Load data from JSON file as fallback when MLflow is unavailable."""
     try:
-        if not os.path.exists(filename):
-            print(f"No saved data file found at {filename}")
+        # Debug: Check current working directory and file existence
+        current_dir = os.getcwd()
+        print(f"DEBUG: Current working directory: {current_dir}")
+        print(f"DEBUG: Looking for file: {filename}")
+        print(f"DEBUG: Full path would be: {os.path.join(current_dir, filename)}")
+        
+        # Try different possible locations for the file
+        possible_paths = [
+            filename,  # Current directory
+            os.path.join(current_dir, filename),  # Explicit current directory
+            os.path.join(os.path.dirname(__file__), filename),  # Same directory as this Python file
+        ]
+        
+        found_file = None
+        for path in possible_paths:
+            print(f"DEBUG: Trying path: {path}")
+            if os.path.exists(path):
+                found_file = path
+                print(f"✅ Found file at: {path}")
+                break
+            else:
+                print(f"❌ Not found at: {path}")
+        
+        # List files in current directory for debugging
+        try:
+            files = os.listdir('.')
+            json_files = [f for f in files if f.endswith('.json')]
+            print(f"DEBUG: JSON files in current directory: {json_files}")
+        except:
+            print("DEBUG: Could not list directory contents")
+        
+        if not found_file:
+            print(f"❌ No saved data file found at any location")
             return pd.DataFrame(columns=['timestamp', 'task_category', 'model_a', 'model_b', 'winner'])
         
+        filename = found_file  # Use the found path
+        
+        print(f"✅ Found {filename}, attempting to load...")
         with open(filename, 'r') as f:
             data_dict = json.load(f)
         
+        print(f"✅ JSON loaded successfully, contains {len(data_dict.get('data', []))} records")
         df = pd.DataFrame(data_dict['data'])
         
         # Ensure timestamp is datetime type
@@ -43,13 +78,16 @@ def load_data_from_json(filename='leaderboard_data.json'):
             df['timestamp'] = pd.to_datetime(df['timestamp'])
         
         last_updated = data_dict.get('last_updated', 'Unknown')
-        print(f"Successfully loaded {len(df)} records from {filename}")
-        print(f"Data last updated: {last_updated}")
+        print(f"✅ Successfully loaded {len(df)} records from {filename}")
+        print(f"📅 Data last updated: {last_updated}")
         
         return df
         
     except Exception as e:
-        print(f"Error loading data from JSON: {e}")
+        print(f"❌ Error loading data from JSON: {e}")
+        print(f"❌ Exception type: {type(e).__name__}")
+        import traceback
+        print(f"❌ Full traceback: {traceback.format_exc()}")
         return pd.DataFrame(columns=['timestamp', 'task_category', 'model_a', 'model_b', 'winner'])
 
 def update_saved_data():
@@ -182,19 +220,21 @@ def load_data_from_mlflow():
 
 def load_data(use_mlflow=True):
     """Load and preprocess the match data from MLflow with JSON fallback."""
+    print(f"🔄 load_data called with use_mlflow={use_mlflow}")
+    
     if not use_mlflow:
-        print("Loading from saved data file...")
+        print("📁 Loading from saved data file (use_mlflow=False)...")
         return load_data_from_json()
         
     try:
-        print("Loading data from MLflow...")
+        print("🔴 Loading data from MLflow...")
         df = load_data_from_mlflow()
         
         if df.empty:
-            print("No MLflow data found, trying saved data file...")
+            print("⚠️ No MLflow data found, trying saved data file...")
             return load_data_from_json()
         else:
-            print(f"Successfully loaded {len(df)} records from MLflow")
+            print(f"✅ Successfully loaded {len(df)} records from MLflow")
             # Ensure timestamp is datetime type
             if 'timestamp' in df.columns:
                 df['timestamp'] = pd.to_datetime(df['timestamp'])
@@ -205,8 +245,9 @@ def load_data(use_mlflow=True):
             return df
             
     except Exception as e:
-        print(f"MLflow loading failed: {e}")
-        print("Falling back to saved data file...")
+        print(f"❌ MLflow loading failed: {e}")
+        print(f"❌ Exception type: {type(e).__name__}")
+        print("📁 Falling back to saved data file...")
         return load_data_from_json()
 
 
