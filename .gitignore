@@ -172,6 +172,7 @@ mlartifacts/
 # Data files
 *.csv
 *.json
+!leaderboard_data.json
 *.parquet
 *.h5
 *.hdf5

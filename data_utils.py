@@ -2,8 +2,78 @@ import pandas as pd
 import numpy as np
 from datetime import datetime
 import math
+import json
+import os
 
 # MLflow integration will be defined directly in this file
+
+def save_data_to_json(df, filename='leaderboard_data.json'):
+    """Save DataFrame to JSON file for deployment fallback."""
+    try:
+        # Convert DataFrame to JSON-serializable format
+        data_dict = {
+            'data': df.to_dict('records'),
+            'last_updated': datetime.now().isoformat(),
+            'total_records': len(df)
+        }
+        
+        with open(filename, 'w') as f:
+            json.dump(data_dict, f, indent=2, default=str)
+        
+        print(f"Successfully saved {len(df)} records to {filename}")
+        return True
+    except Exception as e:
+        print(f"Error saving data to JSON: {e}")
+        return False
+
+def load_data_from_json(filename='leaderboard_data.json'):
+    """Load data from JSON file as fallback when MLflow is unavailable."""
+    try:
+        if not os.path.exists(filename):
+            print(f"No saved data file found at {filename}")
+            return pd.DataFrame(columns=['timestamp', 'task_category', 'model_a', 'model_b', 'winner'])
+        
+        with open(filename, 'r') as f:
+            data_dict = json.load(f)
+        
+        df = pd.DataFrame(data_dict['data'])
+        
+        # Ensure timestamp is datetime type
+        if 'timestamp' in df.columns and not df.empty:
+            df['timestamp'] = pd.to_datetime(df['timestamp'])
+        
+        last_updated = data_dict.get('last_updated', 'Unknown')
+        print(f"Successfully loaded {len(df)} records from {filename}")
+        print(f"Data last updated: {last_updated}")
+        
+        return df
+        
+    except Exception as e:
+        print(f"Error loading data from JSON: {e}")
+        return pd.DataFrame(columns=['timestamp', 'task_category', 'model_a', 'model_b', 'winner'])
+
+def update_saved_data():
+    """Update the saved data file with fresh MLflow data. Use this locally to refresh deployment data."""
+    try:
+        print("Fetching fresh data from MLflow...")
+        df = load_data_from_mlflow()
+        
+        if df.empty:
+            print("No MLflow data available to save.")
+            return False
+        
+        success = save_data_to_json(df)
+        if success:
+            print("✅ Saved data file updated successfully!")
+            print("💡 Commit and push the updated leaderboard_data.json to deploy fresh data.")
+            return True
+        else:
+            print("❌ Failed to update saved data file.")
+            return False
+            
+    except Exception as e:
+        print(f"Error updating saved data: {e}")
+        return False
 
 def load_data_from_mlflow():
     """Load comparison data from MLflow experiments."""
@@ -111,25 +181,33 @@ def load_data_from_mlflow():
         return pd.DataFrame(columns=['timestamp', 'task_category', 'model_a', 'model_b', 'winner'])
 
 def load_data(use_mlflow=True):
-    """Load and preprocess the match data from MLflow."""
+    """Load and preprocess the match data from MLflow with JSON fallback."""
     if not use_mlflow:
-        print("Warning: CSV mode disabled. Only MLflow data is supported.")
-        return pd.DataFrame(columns=['timestamp', 'task_category', 'model_a', 'model_b', 'winner'])
+        print("Loading from saved data file...")
+        return load_data_from_json()
         
     try:
         print("Loading data from MLflow...")
         df = load_data_from_mlflow()
+        
         if df.empty:
-            print("No MLflow data found.")
+            print("No MLflow data found, trying saved data file...")
+            return load_data_from_json()
         else:
             print(f"Successfully loaded {len(df)} records from MLflow")
             # Ensure timestamp is datetime type
             if 'timestamp' in df.columns:
                 df['timestamp'] = pd.to_datetime(df['timestamp'])
-        return df
+            
+            # Auto-save the fresh MLflow data for deployment fallback
+            save_data_to_json(df)
+            
+            return df
+            
     except Exception as e:
         print(f"MLflow loading failed: {e}")
-        return pd.DataFrame(columns=['timestamp', 'task_category', 'model_a', 'model_b', 'winner'])
+        print("Falling back to saved data file...")
+        return load_data_from_json()
 
 
 def calculate_wilson_confidence_interval(wins, total_matches, confidence_level=0.95):

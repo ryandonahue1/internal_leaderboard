@@ -140,6 +140,28 @@ def get_cached_data(use_mlflow=True):
     """Cache data loading for better performance."""
     return load_app_data(use_mlflow=use_mlflow)
 
+def get_data_source_info():
+    """Determine what data source is being used."""
+    import os
+    
+    # Check if we can import mlflow (indicates MLflow is available)
+    try:
+        import mlflow
+        mlflow_available = True
+    except ImportError:
+        mlflow_available = False
+    
+    # Check if saved data file exists
+    saved_data_exists = os.path.exists('leaderboard_data.json')
+    
+    # Determine likely data source
+    if mlflow_available:
+        return "live", "🔴 Live MLflow Data", "Loading fresh data from MLflow experiments"
+    elif saved_data_exists:
+        return "saved", "📁 Saved Data File", "Using cached data file (leaderboard_data.json)"
+    else:
+        return "none", "⚠️ No Data Source", "No MLflow connection or saved data file found"
+
 def render_task_category_card(category, top_models, coming_soon=False):
     """Render a modern task category card with top models."""
     # Category-specific styling and emojis
@@ -278,7 +300,31 @@ def render_overview_page():
     
     st.sidebar.markdown("---")
     st.sidebar.markdown("### Data Source")
-    st.sidebar.info("Loading live data from MLflow experiments")
+    
+    # Get data source information
+    source_type, source_title, source_description = get_data_source_info()
+    
+    if source_type == "live":
+        st.sidebar.success(f"**{source_title}**")
+        st.sidebar.info(source_description)
+    elif source_type == "saved":
+        st.sidebar.warning(f"**{source_title}**")
+        st.sidebar.info(source_description)
+        
+        # Check when the file was last updated
+        import os
+        if os.path.exists('leaderboard_data.json'):
+            try:
+                import json
+                with open('leaderboard_data.json', 'r') as f:
+                    data_info = json.load(f)
+                last_updated = data_info.get('last_updated', 'Unknown')
+                st.sidebar.caption(f"Last updated: {last_updated}")
+            except:
+                pass
+    else:
+        st.sidebar.error(f"**{source_title}**")
+        st.sidebar.warning(source_description)
     
     df = get_cached_data(use_mlflow=use_mlflow)
     
@@ -522,11 +568,30 @@ def main():
     st.sidebar.markdown("This leaderboard tracks AI model performance across different task categories from our MLflow experiments.")
     st.sidebar.markdown("**Built with Streamlit** • **Powered by MLflow**")
     
-    # Data refresh button
+    # Data refresh and update options
     st.sidebar.markdown("---")
-    if st.sidebar.button("Refresh Data", use_container_width=True):
+    
+    # Regular refresh button (always available)
+    if st.sidebar.button("🔄 Refresh Data", use_container_width=True, help="Clear cache and reload data"):
         st.cache_data.clear()
         st.rerun()
+    
+    # Manual data update button (only show if MLflow is available)
+    source_type, _, _ = get_data_source_info()
+    if source_type == "live":
+        st.sidebar.markdown("### Update Saved Data")
+        if st.sidebar.button("💾 Update Data File", use_container_width=True, help="Save current MLflow data to file for deployment"):
+            try:
+                from data_utils import update_saved_data
+                with st.spinner("Updating saved data file..."):
+                    success = update_saved_data()
+                if success:
+                    st.sidebar.success("✅ Data file updated!")
+                    st.sidebar.info("💡 Commit and push to deploy this data.")
+                else:
+                    st.sidebar.error("❌ Failed to update data file.")
+            except Exception as e:
+                st.sidebar.error(f"Error: {e}")
 
 if __name__ == "__main__":
     main() 
