@@ -134,7 +134,8 @@ def load_data_from_mlflow():
                 "gpt-4.1-mini-2025-04-14": "GPT-4.1-Mini",
                 "us.anthropic.claude-3-7-sonnet-20250219-v1:0": "Claude-3.7-Sonnet",
                 "gpt-4.1-2025-04-14": "GPT-4.1",
-                "anthropic.claude-3-5-sonnet-20240620-v1:0": "Claude-3.5-Sonnet"
+                "anthropic.claude-3-5-sonnet-20240620-v1:0": "Claude-3.5-Sonnet",
+                "gpt-5-2025-08-07": "GPT-5",
             }
             return name_mappings.get(model_name, model_name.replace("us.anthropic.", "").replace("-v1:0", ""))
         

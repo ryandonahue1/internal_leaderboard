@@ -1,6 +1,3058 @@
 {
   "data": [
     {
+      "timestamp": "2025-08-08 16:53:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:54:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:55:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:56:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:57:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:58:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:59:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:00:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:01:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:02:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:03:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:04:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:05:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:06:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:07:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:08:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:09:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:10:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:11:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:12:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:13:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:14:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:15:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:16:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:17:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:18:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:19:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:20:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:21:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:22:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:23:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:24:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:25:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:26:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:27:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:28:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:29:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:30:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:31:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:32:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:33:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:34:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:35:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:36:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:37:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:38:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:39:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:40:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:41:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:42:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:43:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:44:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:45:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:46:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:47:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:48:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:49:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:50:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:51:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:52:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:53:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:54:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:55:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:56:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:57:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:58:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:59:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:00:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:01:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:02:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:03:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:04:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:05:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:06:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:07:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:08:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:09:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:10:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:11:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:12:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:13:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:14:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:15:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:16:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:17:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:18:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:19:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:20:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:21:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:22:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:23:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:24:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:25:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:26:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:27:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:28:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:29:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:30:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:31:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:32:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:33:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:34:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:35:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:36:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:37:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:38:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:39:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:40:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "Claude-3.5-Sonnet"
+    },
+    {
+      "timestamp": "2025-08-08 18:41:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:42:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:43:15.379000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.5-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:26:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:27:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:28:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:29:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:30:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:31:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:32:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:33:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:34:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:35:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:36:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:37:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:38:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:39:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:40:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:41:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:42:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:43:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:44:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:45:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:46:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:47:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:48:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:49:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:50:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:51:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:52:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:53:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:54:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:55:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:56:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:57:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:58:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:59:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:00:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:01:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:02:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:03:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:04:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:05:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:06:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:07:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:08:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:09:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:10:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:11:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:12:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:13:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:14:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:15:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:16:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:17:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:18:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:19:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:20:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:21:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:22:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:23:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:24:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:25:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:26:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:27:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "Claude-3.7-Sonnet"
+    },
+    {
+      "timestamp": "2025-08-08 17:28:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:29:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:30:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:31:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:32:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "Claude-3.7-Sonnet"
+    },
+    {
+      "timestamp": "2025-08-08 17:33:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:34:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:35:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:36:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:37:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:38:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:39:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:40:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:41:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:42:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:43:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:44:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:45:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:46:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:47:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:48:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:49:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:50:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:51:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:52:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:53:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:54:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "Claude-3.7-Sonnet"
+    },
+    {
+      "timestamp": "2025-08-08 17:55:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "Claude-3.7-Sonnet"
+    },
+    {
+      "timestamp": "2025-08-08 17:56:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:57:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:58:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:59:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "Claude-3.7-Sonnet"
+    },
+    {
+      "timestamp": "2025-08-08 18:00:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:01:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:02:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:03:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:04:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:05:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:06:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:07:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:08:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:09:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:10:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:11:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 18:12:21.580000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "Claude-3.7-Sonnet",
+      "winner": "Claude-3.7-Sonnet"
+    },
+    {
+      "timestamp": "2025-08-08 15:53:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 15:54:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-4.1-Mini"
+    },
+    {
+      "timestamp": "2025-08-08 15:55:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 15:56:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-4.1-Mini"
+    },
+    {
+      "timestamp": "2025-08-08 15:57:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 15:58:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 15:59:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:00:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:01:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:02:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:03:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:04:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:05:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:06:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:07:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:08:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:09:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:10:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:11:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:12:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:13:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:14:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:15:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:16:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:17:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:18:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-4.1-Mini"
+    },
+    {
+      "timestamp": "2025-08-08 16:19:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:20:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:21:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:22:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:23:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:24:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:25:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:26:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:27:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-4.1-Mini"
+    },
+    {
+      "timestamp": "2025-08-08 16:28:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:29:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:30:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-4.1-Mini"
+    },
+    {
+      "timestamp": "2025-08-08 16:31:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:32:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-4.1-Mini"
+    },
+    {
+      "timestamp": "2025-08-08 16:33:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:34:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:35:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:36:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:37:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:38:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:39:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:40:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:41:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-4.1-Mini"
+    },
+    {
+      "timestamp": "2025-08-08 16:42:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:43:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-4.1-Mini"
+    },
+    {
+      "timestamp": "2025-08-08 16:44:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:45:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:46:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:47:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:48:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:49:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:50:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:51:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-4.1-Mini"
+    },
+    {
+      "timestamp": "2025-08-08 16:52:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-4.1-Mini"
+    },
+    {
+      "timestamp": "2025-08-08 16:53:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:54:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:55:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:56:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:57:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:58:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:59:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:00:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:01:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:02:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:03:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:04:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:05:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-4.1-Mini"
+    },
+    {
+      "timestamp": "2025-08-08 17:06:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:07:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-4.1-Mini"
+    },
+    {
+      "timestamp": "2025-08-08 17:08:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:09:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:10:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-4.1-Mini"
+    },
+    {
+      "timestamp": "2025-08-08 17:11:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:12:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:13:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:14:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:15:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:16:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:17:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:18:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:19:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:20:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:21:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:22:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-4.1-Mini"
+    },
+    {
+      "timestamp": "2025-08-08 17:23:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:24:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-4.1-Mini"
+    },
+    {
+      "timestamp": "2025-08-08 17:25:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:26:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:27:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:28:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:29:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:30:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:31:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:32:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:33:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:34:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:35:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:36:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:37:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:38:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:39:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:40:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:41:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:42:58.250000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1-Mini",
+      "winner": "GPT-4.1-Mini"
+    },
+    {
+      "timestamp": "2025-08-08 15:20:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 15:21:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 15:22:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 15:23:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 15:24:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 15:25:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 15:26:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-4.1"
+    },
+    {
+      "timestamp": "2025-08-08 15:27:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 15:28:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 15:29:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 15:30:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 15:31:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-4.1"
+    },
+    {
+      "timestamp": "2025-08-08 15:32:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 15:33:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 15:34:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 15:35:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 15:36:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 15:37:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-4.1"
+    },
+    {
+      "timestamp": "2025-08-08 15:38:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 15:39:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 15:40:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 15:41:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 15:42:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-4.1"
+    },
+    {
+      "timestamp": "2025-08-08 15:43:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 15:44:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-4.1"
+    },
+    {
+      "timestamp": "2025-08-08 15:45:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-4.1"
+    },
+    {
+      "timestamp": "2025-08-08 15:46:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-4.1"
+    },
+    {
+      "timestamp": "2025-08-08 15:47:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 15:48:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 15:49:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 15:50:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 15:51:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 15:52:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 15:53:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-4.1"
+    },
+    {
+      "timestamp": "2025-08-08 15:54:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 15:55:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 15:56:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-4.1"
+    },
+    {
+      "timestamp": "2025-08-08 15:57:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 15:58:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 15:59:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:00:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:01:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:02:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-4.1"
+    },
+    {
+      "timestamp": "2025-08-08 16:03:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-4.1"
+    },
+    {
+      "timestamp": "2025-08-08 16:04:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:05:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:06:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-4.1"
+    },
+    {
+      "timestamp": "2025-08-08 16:07:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:08:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-4.1"
+    },
+    {
+      "timestamp": "2025-08-08 16:09:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-4.1"
+    },
+    {
+      "timestamp": "2025-08-08 16:10:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:11:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:12:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-4.1"
+    },
+    {
+      "timestamp": "2025-08-08 16:13:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-4.1"
+    },
+    {
+      "timestamp": "2025-08-08 16:14:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-4.1"
+    },
+    {
+      "timestamp": "2025-08-08 16:15:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:16:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:17:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:18:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:19:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:20:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:21:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:22:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:23:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:24:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:25:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:26:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:27:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-4.1"
+    },
+    {
+      "timestamp": "2025-08-08 16:28:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:29:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:30:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:31:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:32:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-4.1"
+    },
+    {
+      "timestamp": "2025-08-08 16:33:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:34:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-4.1"
+    },
+    {
+      "timestamp": "2025-08-08 16:35:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-4.1"
+    },
+    {
+      "timestamp": "2025-08-08 16:36:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:37:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:38:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-4.1"
+    },
+    {
+      "timestamp": "2025-08-08 16:39:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-4.1"
+    },
+    {
+      "timestamp": "2025-08-08 16:40:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:41:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:42:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:43:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:44:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-4.1"
+    },
+    {
+      "timestamp": "2025-08-08 16:45:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:46:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:47:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:48:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:49:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:50:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-4.1"
+    },
+    {
+      "timestamp": "2025-08-08 16:51:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:52:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:53:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:54:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:55:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:56:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:57:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:58:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 16:59:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:00:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:01:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:02:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:03:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:04:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:05:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-4.1"
+    },
+    {
+      "timestamp": "2025-08-08 17:06:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-5"
+    },
+    {
+      "timestamp": "2025-08-08 17:07:41.939000+00:00",
+      "task_category": "Extract Claims",
+      "model_a": "GPT-5",
+      "model_b": "GPT-4.1",
+      "winner": "GPT-4.1"
+    },
+    {
       "timestamp": "2025-07-30 21:19:58.854000+00:00",
       "task_category": "Extract Claims",
       "model_a": "Claude-3.7-Sonnet",
@@ -19566,6 +22618,6 @@
       "winner": "GPT-4.1-Mini"
     }
   ],
-  "last_updated": "2025-08-01T09:24:09.143751",
-  "total_records": 2795
+  "last_updated": "2025-08-08T13:48:17.431604",
+  "total_records": 3231
 }
