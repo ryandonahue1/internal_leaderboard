@@ -537,6 +537,15 @@ def main():
     """Main application logic."""
     # Enforce login before doing anything expensive or loading data
     require_company_login()
+
+    # Workaround: if we're on the OAuth callback (query contains code/state), force redirect to root
+    # This avoids rare cases where the callback page can appear to hang with a spinner.
+    if getattr(st.user, "is_logged_in", False):
+        qp = st.query_params
+        if ("code" in qp) or ("state" in qp):
+            st.query_params.clear()
+            st.markdown('<meta http-equiv="refresh" content="0; url=/" />', unsafe_allow_html=True)
+            st.stop()
     
     # Initialize session state
     if 'selected_page' not in st.session_state:
