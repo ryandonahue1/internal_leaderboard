@@ -13,6 +13,31 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+# Add: simple company login gate using Streamlit OIDC
+ALLOWED_EMAIL_DOMAIN = "@vlex.com"
+
+def require_company_login():
+    """Enforce login via OIDC and restrict to allowed email domain."""
+    # If user is not logged in, show login button and stop.
+    if not getattr(st.user, "is_logged_in", False):
+        st.title("Sign in required")
+        st.info("This app is restricted to vLex employees. Use your Google work account.")
+        st.button("Log in with Google", on_click=st.login, use_container_width=True)
+        st.stop()
+    
+    # After login, validate email domain
+    user_email = None
+    try:
+        # st.user is dict-like; try attribute then key access
+        user_email = getattr(st.user, "email", None) or st.user.get("email")
+    except Exception:
+        user_email = getattr(st.user, "email", None)
+    
+    if not user_email or not str(user_email).lower().endswith(ALLOWED_EMAIL_DOMAIN):
+        st.error("Access restricted to vlex.com accounts. You are logged in as: {}".format(user_email or "unknown"))
+        st.button("Log out", on_click=st.logout, use_container_width=True)
+        st.stop()
+
 # Custom CSS for modern styling
 st.markdown("""
 <style>
@@ -507,6 +532,9 @@ def render_task_detail_page(category):
 
 def main():
     """Main application logic."""
+    # Enforce login before doing anything expensive or loading data
+    require_company_login()
+    
     # Initialize session state
     if 'selected_page' not in st.session_state:
         st.session_state.selected_page = "Overview"
