@@ -22,7 +22,10 @@ def require_company_login():
     if not getattr(st.user, "is_logged_in", False):
         st.title("Sign in required")
         st.info("This app is restricted to vLex employees. Use your Google work account.")
-        st.button("Log in with Google", on_click=st.login, use_container_width=True)
+        # Change: call st.login directly to avoid callback edge cases
+        if st.button("Log in with Google", use_container_width=True):
+            st.login()
+            st.stop()
         st.stop()
     
     # After login, validate email domain
